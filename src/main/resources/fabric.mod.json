@@ -1,13 +1,11 @@
 {
   "schemaVersion": 1,
-  "id": "oyvey",
+  "id": "izuclient",
   "version": "${version}",
-  "name": "oyvey-ported",
-  "description": "free and opensource client base",
+  "name": "IzuClient",
+  "description": "The Best Utility Client For 9b9t",
   "authors": [
-    "3arthqu4ke",
-    "alpha432",
-    "cattyn"
+    "IzumiiHD"
   ],
   "contact": {
     "repo": "https://github.com/mioclient/oyvey-ported"

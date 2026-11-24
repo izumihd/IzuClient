@@ -28,7 +28,7 @@ public class OyVeyGui extends Screen {
     private final ArrayList<Widget> widgets = new ArrayList<>();
 
     public OyVeyGui() {
-        super(Component.literal("OyVey"));
+        super(Component.literal("IzuClient"));
         setInstance();
         load();
     }
