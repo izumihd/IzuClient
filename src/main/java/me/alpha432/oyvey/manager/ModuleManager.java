@@ -12,6 +12,7 @@ import me.alpha432.oyvey.features.Feature;
 import me.alpha432.oyvey.features.commands.ModuleCommand;
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.modules.client.ClickGuiModule;
+import me.alpha432.oyvey.features.modules.client.DiscordPresenceModule;
 import me.alpha432.oyvey.features.modules.client.HudEditorModule;
 import me.alpha432.oyvey.features.modules.client.NotificationsModule;
 import me.alpha432.oyvey.features.modules.combat.KillAuraModule;
@@ -63,6 +64,7 @@ public class ModuleManager implements Jsonable, Util {
         register(new HudEditorModule());
         register(new ClickGuiModule());
         register(new NotificationsModule());
+        register(new DiscordPresenceModule());
         register(new CriticalsModule());
         register(new MCFModule());
         register(new StepModule());

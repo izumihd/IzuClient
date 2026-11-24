@@ -67,6 +67,9 @@ dependencies {
 
     include(implementation("com.github.cattyngmd.catformat:catformat-core:$catformat_version")!!)
     include(modImplementation("com.github.cattyngmd.catformat:catformat-fabric:$catformat_version")!!)
+    include(implementation("com.github.Vatuu:discord-rpc:1.6.2")!!)
+    include(implementation("com.github.Vatuu:discord-rpc-binaries:3.4.0")!!)
+    include(implementation("net.java.dev.jna:jna:5.4.0")!!)
 }
 
 tasks.processResources {
